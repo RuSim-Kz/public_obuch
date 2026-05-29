@@ -1,0 +1,22 @@
+# Файл: .gitignore
+
+# Игнорируем изображения (они могут быть большими)
+/images/*.jpg
+/images/*.jpeg
+/images/*.png
+/images/*.gif
+
+# Игнорируем временные файлы
+*.tmp
+*.log
+*.cache
+
+# Игнорируем файлы конфигурации IDE
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Пароли и локальная конфигурация (не публиковать!)
+php/config.php
+php/config.local.php
